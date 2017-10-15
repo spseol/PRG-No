@@ -17,7 +17,7 @@ dejte vědět tím, že napíšete
     * [Instalace](instalace.md)
     * [Související nástroje](nastroje.md)
     * [Git](git.md)
- 1. Čísla
+ 1. [Čísla](cisla.ipynb)
  2. Řetězce
 
 
