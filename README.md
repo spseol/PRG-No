@@ -5,7 +5,7 @@ Tato stránka slouží jako podpora výuky jazyka Python na [SPŠe Olomouc][].
 
 Prosím, pokud máte jakoukoli připomínku nebo dotaz napište 
 [Issue](https://github.com/spseol/PRG-No/issues/new).
-Pokud najdete chybu, forkněte se repozitář a opravte ji nebo mi alespoň 
+Pokud najdete chybu, forkněte si repozitář a opravte ji nebo mi alespoň 
 dejte vědět tím, že napíšete
 [Issue](https://github.com/spseol/PRG-No/issues/new).
 
