@@ -6,11 +6,11 @@
 # Popis:   Program kontroluje sílu hesla
 ############################################################################
 
-heslo = input('zadej své heslo > ') 
+heslo = input('zadej své heslo > ')
 
 MALA = 'qwertyuiopasdfghjklzxcvbnm'
 VELKA = MALA.upper()
-SPEC ='!@#$%^&*()[]{}\\|-+" \'~'
+SPEC = '!@#$%^&*()[]{}\\|-+" \'~'
 CISLA = '0123456789'
 
 if len(heslo) < 8:
@@ -19,21 +19,20 @@ if len(heslo) < 8:
 
 jeMALA = False
 jeVELKA = False
-jeSPEC = 0 
+jeSPEC = 0
 jeCISLA = 0
 for znak in heslo:
     if znak in MALA:
         jeMALA = True
     jeVELKA = (znak in VELKA) or jeVELKA
-    jeSPEC |=  znak in SPEC
+    jeSPEC |= znak in SPEC
     if znak in CISLA:
         jeCISLA = True
 
 print(jeMALA, jeVELKA, jeSPEC, jeCISLA)
-if jeMALA + jeVELKA + jeSPEC + jeCISLA >=3:
+if jeMALA + jeVELKA + jeSPEC + jeCISLA >= 3:
     print("Heslo je v pořádku")
     exit(0)
 else:
     print("Heslo je příliš jednoduché")
     exit(3)
-
