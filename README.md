@@ -18,7 +18,8 @@ dejte vědět tím, že napíšete
     * [Související nástroje](nastroje.md)
     * [Git](git.md)
  1. [Čísla](cisla.ipynb)
- 2. Řetězce
+ 2. [Řetězce](retezce.ipynb)
+ 2. [Posloupnosti](posloupnosti.ipynb)
 
 
 
