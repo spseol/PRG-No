@@ -8,5 +8,7 @@
 
 
 for file in ./*.md; do
-    notedown $file -o $(basename $file .md).ipynb
+    nbfile=$(basename $file .md).ipynb
+    notedown $file -o $nbfile
+    sed -f ext.sed -E -i $nbfile
 done
