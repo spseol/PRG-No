@@ -5,7 +5,7 @@ Tato stránka slouží jako podpora výuky jazyka Python na [SPŠe Olomouc][].
 Tyto texty lze číst buď na 
 [Githubu](https://github.com/spseol/PRG-No/blob/master/README.md)
 nebo 
-[nbvieweru](http://nbviewer.jupyter.org/github/spseol/PRG-NO/blob/master/README.ipynb)
+[nbvieweru](http://nbviewer.jupyter.org/github/spseol/PRG-NO/blob/master/README.ipynb).
 
 
 Prosím, pokud máte jakoukoli **připomínku** nebo **dotaz** napište 
