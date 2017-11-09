@@ -25,6 +25,15 @@ dejte vědět tím, že napíšete
  1. [Čísla](cisla.ipynb)
  2. [Řetězce](retezce.ipynb)
  2. [Posloupnosti](posloupnosti.ipynb)
+ 3. [Slovníky](slovniky.ipynb)
+ 3. [Množiny](mnoziny.ipynb)
+ 3. [~](.ipynb)
+ 3. [Podmínky](podminky.ipynb)
+ 3. [Cykly](cykly.ipynb)
+ 3. [Funkce](funkce.ipynb)
+ 3. [Generátory](generatory.ipynb)
+ 3. [Funkcionální přístup](funkcional.ipynb)
+
 
 
 
