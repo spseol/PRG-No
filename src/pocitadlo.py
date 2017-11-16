@@ -19,10 +19,15 @@ for k in slovnik.keys():
 print(slovnik.get('abc'))
 """
 
+
 # text = input('zadej mi sem text >>> ')
-text = sys.stdin.read()
+with open('input.txt') as f:
+    text = f.read()
+
 pocitadlo = {}
 for c in text:
+    if c < 'A' or c > 'Z':
+        continue  # cykluv v tomto místě skočí na další obrátku
     c = c.upper()
     if pocitadlo.get(c):  # klič existuje
         pocitadlo[c] += 1
@@ -32,4 +37,6 @@ for c in text:
 maximum = max(pocitadlo.values())
 
 for k in sorted(pocitadlo.keys()):
-    print(k, ":", pocitadlo.get(k), '#' * (30 * pocitadlo[k]//maximum))
+    print(k, ":",
+          "{:10d}".format(pocitadlo.get(k)),
+          '#' * (30 * pocitadlo[k]//maximum))
