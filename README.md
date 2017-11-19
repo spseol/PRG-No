@@ -1,6 +1,8 @@
  Programování v jazyce Python
 =================================
 
+[![Join the chat at https://gitter.im/spseol/PRG-No](https://badges.gitter.im/spseol/PRG-No.svg)](https://gitter.im/spseol/PRG-No?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Tato stránka slouží jako podpora výuky jazyka Python na [SPŠe Olomouc][].
 Tyto texty lze číst buď na 
 [Githubu](https://github.com/spseol/PRG-No/blob/master/README.md)
