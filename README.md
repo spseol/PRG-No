@@ -64,3 +64,4 @@ Kde se učit a hledat informace
     - [Pyvec](http://pyvec.org/)
     - [Pyvo](https://pyvo.cz/)
 
+* Stopařův průvodce Pythonem: https://docs.python-guide.org
