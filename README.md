@@ -1,7 +1,7 @@
  Programování v jazyce Python
 =================================
 
-[![Join the chat at https://gitter.im/spseol/PRG-No](https://badges.gitter.im/spseol/PRG-No.svg)](https://gitter.im/spseol/PRG-No?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at gitter.im/spseol/PRG-No](https://badges.gitter.im/spseol/PRG-No.svg)](https://gitter.im/spseol/PRG-No?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Tato stránka slouží jako podpora výuky jazyka Python na [SPŠe Olomouc][].
 Tyto texty lze číst buď na 
@@ -38,7 +38,6 @@ dejte vědět tím, že napíšete
 
 
 
-
 Kde se učit a hledat informace
 ----------------------------
 
@@ -50,6 +49,9 @@ Kde se učit a hledat informace
  * <http://naucse.python.cz/>
     * [Začátečnický kurz](http://naucse.python.cz/course/pyladies/).
     * [Kurz pro pokročilé](http://naucse.python.cz/course/mi-pyt/).
+    * [Jak psát dokumentaci](https://naucse.python.cz/lessons/intro/docs/)
+    * [Naprogramujte si hada](https://naucse.python.cz/2018/snake-brno-codeweek/)
+    * [Naprogramujte si vesmírnou střílečku](https://naucse.python.cz/2018/installfest/)
 
  * Jako učebnici budeme používat knihu **Ponořme se do Pythonu 3**:
      - [HTML](http://diveintopython3.py.cz/index.html)
