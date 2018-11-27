@@ -29,6 +29,7 @@ dejte vědět tím, že napíšete
  2. [Posloupnosti](posloupnosti.ipynb)
  3. [Slovníky](slovniky.ipynb)
  3. [Množiny](mnoziny.ipynb)
+ 3. [Tkinter](tkinter.md)
  3. [~](.ipynb)
  3. [Podmínky](podminky.ipynb)
  3. [Cykly](cykly.ipynb)
