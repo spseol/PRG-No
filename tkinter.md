@@ -12,34 +12,29 @@ Helo World
 ---------------
 
 ```python
+from os.path import basename, splitext
 import tkinter as tk
 # from tkinter import ttk
 
 
-class Application(tk.Frame):
-    def __init__(self, master=None):
-        super().__init__(master)
-        self.pack()
-        self.create_widgets()
+class Application(tk.Tk):
+    name = basename(splitext(basename(__file__.capitalize()))[0])
+    name = 'Foo'
 
-    def create_widgets(self):
-        self.hi_there = tk.Button(self)
-        self.hi_there["text"] = "Hello World\n(click me)"
-        self.hi_there["command"] = self.say_hi
-        self.hi_there.pack(side="top")
+    def __init__(self):
+        super().__init__(className=self.name)
+        self.title(self.name)
+        self.bind("<Escape>", self.quit)
+        self.lbl = tk.Label(self, text="Hello World")
+        self.lbl.pack()
+        self.btn = tk.Button(self, text='Quit', command=self.quit)
+        self.btn.pack()
 
-        self.quit = tk.Button(self, text="QUIT", fg="red",
-                              command=self.master.destroy)
-        self.quit.pack(side="bottom")
-
-    def say_hi(self):
-        print("hi there, everyone!")
+    def quit(self, event=None):
+        super().quit()
 
 
-# root = tk.Tk()
 app = Application()
-# print(root == app.master)
 app.mainloop()
-
 
 ```
