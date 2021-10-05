@@ -2,13 +2,13 @@ Instalace
 =======================
 
 Budeme používat [Python 3](https://docs.python.org/3/). Kromě Pythonu budeme
-ale také potřebovat  některé knihovny a ještě nějaké další nástroje. Pro
+ale také potřebovat  některé knihovny a ještě nějaké další nástroje. 
 jednoduchou instalaci celého ekosystému knihoven a nástrojů slouží například
-[Anaconda](http://continuum.io/downloads) nebo 
-[WinPython](https://winpython.github.io/). Pokud si některý z těchto nástrojů
+[WinPython](https://winpython.github.io/) a jemu podobné distribuce Pythonu. 
+Pokud si některý z těchto nástrojů
 nainstalujete, pravděpodobně už nebude muset instalovat nic dalšího a můžete
 se podívat rovnou na kapitolu
-[Související nástroje](nastroje.md)
+[Související nástroje](nastroje.md).
  
 Následující text je určen těm, kteří chtějí vědět trošku víc nebo chtějí mít vše
 pod kontrolou a rozhodnou se pro ruční instalaci jednotlivých součástí.
@@ -53,15 +53,18 @@ Knihovny pro matematické výpočte a vykreslování grafů jsou
 
     pip3 install numpy matplotlib
 
+nebo
+
+    pip install numpy matplotlib
+
 Pro interaktivní práci a psaní poznámek budeme potřebovat [IPython][] a
 [Jupyter][]: 
 
     pip3 install ipython jupyter
 
-Pro psaní zdrojového kódu se hodí vývojové prostředí [Spyder][]:
+nebo
 
-    pip3 install PyQt5
-    pip3 install spyder
+    pip install ipython jupyter
 
 Pro vytváření webových stránek se hodí [Flask][]:
 
@@ -73,11 +76,7 @@ Pro komunikaci s databázovým serverem [PostgreSQL][] se hodí [psycopg][]:
 
 
 **Spustitelné soubory všech programů**, které jste si nainstalovali najdete
-v adresáři *Program Files\Python 3.6\scripts*. Například
-
- * spyder3.exe
- * jupyter-notebook.exe
- * ... nebo tak nějak
+(asi:) v adresáři *Program Files\Python 3.6\scripts*. Například
 
 [NumPy]: http://www.numpy.org/
 [Matplotlib]: http://matplotlib.org

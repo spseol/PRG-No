@@ -13,17 +13,19 @@ které nám mohou práci usnadnit a zpříjemnit.
 Z [dlouhého seznamu](https://wiki.python.org/moin/IntegratedDevelopmentEnvironments) 
 vybírám dvě.
 
-### Spyder
+### VSCode/Codium
 
-Jednoduchý, přehledný, dostačující. Obsahuje interaktivní konzolu. 
-Je součástí distribuce 
-[Anaconda](http://continuum.io/downloads) a 
-[WinPython](https://winpython.github.io/).
+[Visual Studio Code](https://code.visualstudio.com) je brilantní open-source editor 
+z dílny firmy Microsoft. Pokud do něj doinstalujete doplněk 
+[ms-python.python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) 
+získáte vývojové prostředí, ve kterém vám s největší pravděpodobností nebude nic 
+chybět.
 
-    pip3 install PyQt5
-    pip3 install spyder
+Jen ještě doplním, že pokud by vám (stejně jako mně) vadilo, že Microsoft do 
+balíčku s VSCode zabalí i telemetrii (dřív se tomu říkalo špehování), tak existuje 
+projekt [Codium](https://vscodium.com/), který tímto neduhem netrpí. Codium má 
+marketplace nasměrovaný trošku [jinam](https://open-vsx.org/extension/ms-python/python).
 
-<https://pythonhosted.org/spyder/>
 
 ### PyCharm
 
@@ -49,16 +51,20 @@ Jupyter
 [Jupyter][] je interaktivní Python příkazové prostředí orientované zejména 
 na zpracování a vizualizaci dat. Velice dobře se hodí jako interaktivní 
 konzola.
-Je součástí distribuce 
-[Anaconda](http://continuum.io/downloads) a 
-[WinPython](https://winpython.github.io/).
+Je součástí distribuce [WinPython](https://winpython.github.io/).
 
-    pip3 install ipython jupyter
+    pip install jupyterlab
+
+nebo postaru
+
+    pip install ipython jupyter
+    pip install qtconsole
+    pip install pyqt
 
 
 
 Jupyter obsahuje několik modulů. `jupyter console` a `jupyter qtconsole`
-poskytují interaktivní příkazové prostředí a rozdíl je jen v tom, že `console`
+poskytují interaktivní příkazové prostředí. Rozdíl je jen v tom, že `console`
 běží v příkazovém řádku, kdežto `qtconsole` je grafický program s klikacím menu.
 
 ![](img/qtconsole.png)
