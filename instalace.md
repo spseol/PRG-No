@@ -2,17 +2,11 @@ Instalace
 =======================
 
 Budeme používat [Python 3](https://docs.python.org/3/). Kromě Pythonu budeme
-ale také potřebovat  některé knihovny a ještě nějaké další nástroje. 
-jednoduchou instalaci celého ekosystému knihoven a nástrojů slouží například
-[WinPython](https://winpython.github.io/) a jemu podobné distribuce Pythonu. 
-Pokud si některý z těchto nástrojů
-nainstalujete, pravděpodobně už nebude muset instalovat nic dalšího a můžete
-se podívat rovnou na kapitolu
-[Související nástroje](nastroje.md).
- 
-Následující text je určen těm, kteří chtějí vědět trošku víc nebo chtějí mít vše
-pod kontrolou a rozhodnou se pro ruční instalaci jednotlivých součástí.
-
+ale také potřebovat  některé knihovny a ještě nějaké další nástroje. K
+jednoduché instalaci celého ekosystému knihoven a nástrojů slouží 
+[distribuce Pythonu](https://wiki.python.org/moin/PythonDistributions).
+Já osobně doporučuji instalaci čistého Pythonu a následnou instalaci balíčků pomocí 
+[pip](https://pip.pypa.io/en/stable/).
 
 Python 3
 -------------
